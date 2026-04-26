@@ -56,12 +56,18 @@ Powershell commands:
 ---
 
 ## 1. Create setup folders
-
+- Open powershell as an administrator as use the following code
 ```powershell
 New-Item -ItemType Directory -Force C:\Scripts | Out-Null
 New-Item -ItemType Directory -Force C:\Logs | Out-Null
 ```
+---
 
+## 2. Update winget sources
+```powershell
+winget source update
+```
+---
 ## Decently secure home setup
 - Replace ISP router with firewall such as OPNSense on a suitable PC and use a WAP if needed... Keep it simple, ... and maintainable!
 - AI can certainly assist and operate at scale. Such automated tools can correlate public data and identify individuals across services. This guide does not protect against that.
