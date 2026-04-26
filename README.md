@@ -68,6 +68,26 @@ New-Item -ItemType Directory -Force C:\Logs | Out-Null
 winget source update
 ```
 ---
+
+## 2. Update winget sources
+
+```powershell
+winget source update
+```
+---
+
+## 3. Install core apps
+
+These apps keep the system useful without adding unnecessary bloat.
+
+```powershell
+winget install Mozilla.Firefox --accept-source-agreements --accept-package-agreements
+winget install Google.Chrome --accept-source-agreements --accept-package-agreements
+winget install 7zip.7zip --accept-source-agreements --accept-package-agreements
+winget install WireGuard.WireGuard --accept-source-agreements --accept-package-agreements
+winget install VideoLAN.VLC --accept-source-agreements --accept-package-agreements
+winget install Microsoft.PowerToys --accept-source-agreements --accept-package-agreements
+```
 ## Decently secure home setup
 - Replace ISP router with firewall such as OPNSense on a suitable PC and use a WAP if needed... Keep it simple, ... and maintainable!
 - AI can certainly assist and operate at scale. Such automated tools can correlate public data and identify individuals across services. This guide does not protect against that.
