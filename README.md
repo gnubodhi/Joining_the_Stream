@@ -53,7 +53,14 @@ During Windows setup:
 
 Powershell commands:
 
-- Coming soon
+---
+
+## 1. Create setup folders
+
+```powershell
+New-Item -ItemType Directory -Force C:\Scripts | Out-Null
+New-Item -ItemType Directory -Force C:\Logs | Out-Null
+```
 
 ## Decently secure home setup
 - Replace ISP router with firewall such as OPNSense on a suitable PC and use a WAP if needed... Keep it simple, ... and maintainable!
