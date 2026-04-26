@@ -58,4 +58,4 @@ Powershell commands:
 ## Decently secure home setup
 - Replace router with OPNSense Industrial PC and WAP... Keep it simple, ...!
 - AI can certainly assist, expand capability and automate tasks, but it's real advatange is feedback awareness. 
-- Automated tools can correlate public data and identify individuals across servivices. This guide does not protect against that.
+- Automated tools can correlate public data and identify individuals across services. This guide does not protect against that.
