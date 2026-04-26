@@ -88,6 +88,14 @@ winget install WireGuard.WireGuard --accept-source-agreements --accept-package-a
 winget install VideoLAN.VLC --accept-source-agreements --accept-package-agreements
 winget install Microsoft.PowerToys --accept-source-agreements --accept-package-agreements
 ```
+## 4. Firewall defaults
+```powershell
+netsh advfirewall reset
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
+Set-NetFirewallProfile -Profile Domain,Public,Private -DefaultInboundAction Block
+Set-NetFirewallProfile -Profile Domain,Public,Private -DefaultOutboundAction Allow
+```
+
 ## Decently secure home setup
 - Replace ISP router with firewall such as OPNSense on a suitable PC and use a WAP if needed... Keep it simple, ... and maintainable!
 - AI can certainly assist and operate at scale. Such automated tools can correlate public data and identify individuals across services. This guide does not protect against that.
