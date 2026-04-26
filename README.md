@@ -57,4 +57,5 @@ Powershell commands:
 
 ## Decently secure home setup
 - Replace router with OPNSense Industrial PC and WAP... Keep it simple, ...!
-- Only give shell to trusted people and AI. AI can certainly assist, expand capability and automate tasks, but it's real advatange is feedback awareness. 
+- AI can certainly assist, expand capability and automate tasks, but it's real advatange is feedback awareness. 
+- Automated tools can correlate public data and identify individuals across servivices. This guide does not protect against that.
