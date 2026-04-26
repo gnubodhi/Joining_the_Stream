@@ -20,7 +20,7 @@ Linux is a sore thumb in telemetries asgaisnt an ocean of Windows users..
 - Use StevenBlack hosts as a quiet system-level malware and adware blocklist
 - Use Storage Sense and light BleachBit cleanup by creating scripts
 - Remove unnecessary built-in apps without breaking Windows
-- Audit Firefox and Chrome settings
+- Audit Firefox and Chrome settings, uBlock and DNS settings (OPNSense, pihole or cloudflare)
 - Anything more is outside the scope of this guide
 
 ## Assumptions
