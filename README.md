@@ -57,3 +57,4 @@ Powershell commands:
 
 ## Decently secure home setup
 - Replace router with OPNSense Industrial PC and WAP... Keep it simple, ...!
+- Only give shell to trusted people/AI.
