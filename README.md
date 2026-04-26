@@ -54,3 +54,6 @@ During Windows setup:
 Powershell commands:
 
 - Coming soon
+
+## Decently secure home setup
+- Replace router with OPNSense Industrial PC and WAP
