@@ -97,5 +97,5 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -DefaultOutboundAction All
 ```
 
 ## Decently secure home setup
-- Replace ISP router with firewall such as OPNSense on a suitable PC and use a WAP if needed... Keep it simple, ... and maintainable!
+- Replace ISP router with firewall such as OPNSense on a suitable PC and use a WAP if needed... Keep it simple, ... and maintainable! (Protip, use dd within Linux to write a FreeBSD based image)
 - AI can certainly assist and operate at scale. Such automated tools can correlate public data and identify individuals across services. This guide does not protect against that.
